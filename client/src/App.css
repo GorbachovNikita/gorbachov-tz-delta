@@ -1,0 +1,132 @@
+
+p, b {
+  font-size: 16px;
+  font-family: Arial;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  color: #696969;
+  font-family: Arial;
+  color: #9c9c9c;
+  font-weight: bold;
+}
+
+thead tr {
+  cursor: default;
+}
+
+th {
+  min-width: 180px;
+}
+
+tr {
+  cursor: pointer;
+}
+
+td {
+  min-width: 80px;
+  text-align: center;
+}
+
+.first_column {
+  width: 310px;
+}
+
+.td__left {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.td__right {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.rowColorBlue {
+  background: #dbefff;
+}
+
+.rowColorGreen {
+  background: #bdf0bd;
+}
+
+.rowColorRed {
+  background: #ffcccc;
+}
+
+.pairedValue {
+  background: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.pairedValueLeft {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.pairedValueRight {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.redText {
+  color: #ff3333;
+}
+
+.greenText {
+  color: #00b300;
+}
+
+
+.newData {
+  width: 100%;
+  position: relative;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+#DatePicker {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #C0C0C0;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button {
+  padding: 5px;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  border: 1px solid #f2f2f2;
+  background: #C0C0C0;
+  cursor: pointer;
+  color: black;
+  font-width: bold;
+}
+
+.button:hover {
+  background: #a8a8a8;
+}
+
+.td {
+  background: white;
+}
+
+.td_span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loading {
+  display: none;
+}
